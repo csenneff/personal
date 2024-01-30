@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img src= "./images/profile.jpg" alt="Profile Photo" height="400" style="display: ">
+            <h1>Camden Senneff</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: brown">Software Engineering Student</p>
+            <p>I'm studying software engineering at Iowa State University,
+                graduating 2026.</p>
+            <p>I am also a data engineering intern at Hy-Vee's IT office in Grimes, IA.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src= "./images/tecktip.png" alt="teck tip today" height="240" width="100%">
+                <h3><a href="https://tecktip.today">tecktip.today</a></h3>
+                <p>This is the most excellent website you will visit. 
+                    Created in 2021 and refreshed last year, Teck Tip Today is a 
+                    revolutionary technological advice platform in which you will learn
+                    the most groundbreaking information from Linus Sebastian of Linus
+                    Tech Tips himself. Developed using good ol' HTML, CSS, and JS, with a bit
+                    of Tailwind and Sveltekit. Backend is a Quart API.
+                </p>
+            </div>
+            <div class="project">
+                <img src= "./images/killbill.jpg" alt="kill bill" height="240" width="100%">
+                <h3><a href="https://github.com/csenneff/killbill">Kill Bill</a></h3>
+                <p>Tired of the best website that has ever existed? Try the best
+                    game that has ever existed. Kill Bill is an innovative 2D
+                    dungeon crawler game set in Microsoft HQ, in which you take
+                    the role of Melinda Gates and try to stop a deranged Bill Gates
+                    from taking all the computers for himself. Do you have what it takes
+                    to... <em>kill bill</em>?
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me at csenneff@iastate.edu.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Camden Senneff</p>
+        <a id="footer" href="https://clickhole.com/i-am-coming-to-touch-your-computer-1825124053/">Check out this cool article I found!</a>
+    </footer>
+</body>
+</html>
